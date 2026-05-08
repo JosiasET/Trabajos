@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.resultados {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    min-width: 120px;
+}
+
+.tarjeta h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #007bff;
+}
+
+.tarjeta p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.tarjeta span {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.tarjeta strong {
+    font-size: 18px;
+    color: #333;
+}
+
+@media (max-width: 450px) {
+    .resultados {
+        flex-direction: column;
+    }
+}

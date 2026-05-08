@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas y Fechas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Lista de Artistas y Fechas</h2>
+        
+        <div class="table-wrapper">
+            <table id="tablaDatos" border="1">
+                <thead>
+                    <tr>
+                        <th>Artista</th>
+                        <th>Día</th>
+                        <th>Mes</th>
+                        <th>Año</th>
+                        <th>Fecha Completa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se mostrarán aquí -->
+                </tbody>
+            </table>
+        </div>
+        
+        <button onclick="mostrarDatos()" class="btn-mostrar">Mostrar Datos</button>
+        <button onclick="limpiarTabla()" class="btn-limpiar">Limpiar Tabla</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

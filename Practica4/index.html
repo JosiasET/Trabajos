@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Intereses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Intereses</h1>
+        <p>Rendimiento en 1 mes</p>
+
+        <div class="input-group">
+            <label>Monto inicial:</label>
+            <input type="number" id="monto" placeholder="Ejemplo: 100000" value="0">
+        </div>
+
+        <div class="resultados">
+            <div class="tarjeta">
+                <h3>15%</h3>
+                <p>Interés: <span id="interes15">$0</span></p>
+                <p>Total: <strong id="total15">$0</strong></p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>13.5%</h3>
+                <p>Interés: <span id="interes135">$0</span></p>
+                <p>Total: <strong id="total135">$0</strong></p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>9%</h3>
+                <p>Interés: <span id="interes9">$0</span></p>
+                <p>Total: <strong id="total9">$0</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
